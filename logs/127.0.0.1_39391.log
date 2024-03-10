@@ -1,0 +1,47 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_39391.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 1
+ERROR:werkzeug:Became follower, term 6
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:Initiating election, term 6
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43185 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:33417 due to connection error.
+ERROR:werkzeug:Initiating election, term 7
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43185 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:33417 due to connection error.

@@ -1,0 +1,87 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_57051.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:53369 due to connection error.
+ERROR:werkzeug:became follower from election
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:MY LOGS: []
+ERROR:werkzeug:Became follower, term 5
+ERROR:werkzeug:Initiating election, term 5
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 6
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 7
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 8
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Initiating election, term 9
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Initiating election, term 10
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 11
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 12
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Initiating election, term 13
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 14
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 15
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 16
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:Initiating election, term 17

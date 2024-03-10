@@ -1,0 +1,4 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_60355.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 1
+ERROR:werkzeug:Became follower, term 2

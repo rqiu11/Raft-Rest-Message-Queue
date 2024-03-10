@@ -1,0 +1,6 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_33845.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 1
+ERROR:werkzeug:getting data from nodes/127.0.0.1_33845.json
+ERROR:werkzeug:logs: [], voted_for: {'1': '127.0.0.1:47213'}, current_term: 1
+ERROR:werkzeug:Became follower, term 2

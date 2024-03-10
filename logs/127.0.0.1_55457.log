@@ -1,0 +1,34 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_55457.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 1
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 1, 'topic': 'test_topic'}, {'term': 1, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Became leader, term 2
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:36677 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48589 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:36677 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48589 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:50955 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39697 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39697 due to connection error.

@@ -1,0 +1,10 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_48627.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 1
+ERROR:werkzeug:Became follower, term 2
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:37663 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:37871 due to connection error.
+ERROR:werkzeug:Initiating election, term 3
+ERROR:werkzeug:Became leader, term 4
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37663 due to connection error.

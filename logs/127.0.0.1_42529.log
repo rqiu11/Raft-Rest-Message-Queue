@@ -1,0 +1,12 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_42529.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Became leader, term 2
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:getting data from nodes/127.0.0.1_42529.json
+ERROR:werkzeug:logs: [], voted_for: {'1': '127.0.0.1:42529'}, current_term: 2
+ERROR:werkzeug:Became follower, term 27

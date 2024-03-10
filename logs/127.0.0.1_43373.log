@@ -1,0 +1,30 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_43373.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:55679 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43697 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43697 due to connection error.
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43697 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Initiating election, term 4
+ERROR:werkzeug:Became leader, term 5
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:55679
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:60941
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:43697
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:45427
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 5, 'topic': 'test_topic'}, {'term': 5, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:60941
+ERROR:werkzeug:Last applied: 2, index of log added: 2
+ERROR:werkzeug:MQ: {'test_topic': ['Test Message']}
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:43697
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:55679: Term mismatch. My term is 5. Their term is 5
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:45427
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:55679

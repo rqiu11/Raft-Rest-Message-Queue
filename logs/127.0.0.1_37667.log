@@ -1,0 +1,9 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_37667.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:34203 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42493 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46385 due to connection error.
+ERROR:werkzeug:Became follower, term 3
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 3, 'topic': 'test_topic'}, {'term': 3, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Became follower, term 4

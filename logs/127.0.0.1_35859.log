@@ -1,0 +1,6 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35859.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became leader, term 0
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35859.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became leader, term 0

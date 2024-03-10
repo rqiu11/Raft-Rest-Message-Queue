@@ -1,0 +1,8 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_52257.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Became leader, term 1
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:44257
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:52133
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:54269
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:37453

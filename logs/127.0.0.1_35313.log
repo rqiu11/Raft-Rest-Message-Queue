@@ -1,0 +1,28 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35313.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:56967 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:58009 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:56967 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Became leader, term 2
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:56967 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:56967 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:56967 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:56967 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43117 due to connection error.
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:43117
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:58009
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:52387
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:56967

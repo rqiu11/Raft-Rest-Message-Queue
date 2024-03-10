@@ -1,0 +1,5 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_33905.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 2
+ERROR:werkzeug:Initiating election, term 4
+ERROR:werkzeug:Became leader, term 5

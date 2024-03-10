@@ -1,0 +1,25 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_42259.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:51767 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57255 due to connection error.
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57255 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Became leader, term 3
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57255 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57255 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57255 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57255 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:39571 due to connection error.
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:33417
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:57255
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:51767
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:39571

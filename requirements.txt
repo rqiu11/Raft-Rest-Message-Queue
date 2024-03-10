@@ -1,0 +1,16 @@
+# The below modules are needed for node.py
+flask
+sys
+os
+json
+threading
+time
+random
+requests
+logging
+
+# The below modules are needed for the tests
+subprocess
+socket
+pytest
+shutil

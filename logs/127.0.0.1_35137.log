@@ -1,0 +1,168 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35137.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:56509 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:40829 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:40829 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Became leader, term 2
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:40829 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:40829 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:40829 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35711 due to connection error.
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:40829
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:49689
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:35711
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:56509
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:56509
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:40829
+ERROR:werkzeug:Last applied: 2, index of log added: 2
+ERROR:werkzeug:MQ: {'test_topic': ['Test Message']}
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:35711
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:49689
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35137.json
+ERROR:werkzeug:logs: [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], voted_for: {'0': '127.0.0.1:35137', '1': '127.0.0.1:35137'}, current_term: 2
+ERROR:werkzeug:CANDIDATE LOGS NOT newer logs [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}]
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:53369 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:46283 due to connection error.
+ERROR:werkzeug:CANDIDATE LOGS NOT newer logs [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}]
+ERROR:werkzeug:Initiating election, term 3
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:53369 due to connection error.
+ERROR:werkzeug:Became leader, term 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:53369 due to connection error.
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:57051: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:46283: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:Failed to send heartbeat to follower 127.0.0.1:53369: Term mismatch. My term is 4. Their term is 4
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35137.json
+ERROR:werkzeug:logs: [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], voted_for: {'0': '127.0.0.1:35137', '1': '127.0.0.1:35137', '2': '127.0.0.1:35137', '3': '127.0.0.1:35137'}, current_term: 4
+ERROR:werkzeug:CANDIDATE LOGS NOT newer logs [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}]

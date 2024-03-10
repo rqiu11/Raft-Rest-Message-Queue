@@ -1,0 +1,72 @@
+1)Single Node Case
+- Test that when there is only a single node in the system, that node becomes the leader
+
+
+2)Test majority needed to vote for leadeR
+- 2-node case: 2 nodes (candidate and the other node) are both required to vote to elect a leader 
+- 3-node case: 2 nodes (candidate and at least one other node) are required to vote to elect a leader 
+
+3) Another nominal case
+- 5 nodes total
+- Node1 times out, get’s a majority vote, becomes leader, and sends heartbeats
+
+4) Split-votes case
+- 4 nodes total
+- 2 nodes time out at the same time
+- Each of the nodes that timed out votes for themselves and splits the votes (each gets their own vote + one other vote)
+- No leader is elected at the end of this term
+- A leader should be elected in the next term (check that the term number has increased)
+
+5) Split-votes case with 5 nodes total
+- 3 nodes time out at the same time (or in close succession - faster than any one of them can win the election)
+- Each of these 3 nodes votes for themselves, 2 of them get 2 votes in total, and 1 of them gets one vote in total (no one has a majority)
+- No leader is elected at the end of this term
+- Eventually a node times out and gets a majority of votes and becomes leader
+
+
+6) Time-outs from two nodes in close succession
+- 4 nodes total
+- One node times out and sends out a RequestToVote, and quickly after that, another node times out and sends a RequestToVote
+- The first node that timed out gets a majority of votes back before the second one does, so the first node that timed out becomes leader, and the second candidate node gets a heartbeat from the new leader and becomes a follower
+
+7) Current leader crashes
+- The current leader crashes, then another node times out, sends out a RequestToVote, gets the majority, and becomes leader
+- The past leader then becomes alive again, it has an old term number and so as soon as it gets a heartbeat from the current leader, it becomes a follower and it increases its term number
+
+8) Election when a node has just crashed and restarted
+- 5 nodes total
+- The leader crashes
+- Another node becomes  aleader, this node crashes
+- The first leader comes back alive, gets RequestToVote from another node (call it node3), so this leader increases the term and votes for node3
+
+9) Introduce network latency between nodes and ensure that leader election can still happen
+
+10) Leader election continues with unresponsive nodes
+- 5 nodes total
+- The leader and one more node become unresponsive
+- A new leader is elected
+
+11) Server becomes undresponsive after getting a majority of votes
+- 5 nodes
+- node1 times out, issues RequestToVote to all other nodes
+- A majority of nodes respond with ‘yes’ votes
+- Before node1 receives these yes votes, it becomes unresponsive
+- Another node (node2) times out, increases its term, and is elected leader in this new term
+- Node1 comes back alive, receives heartbeats from node 2, then becomes a follower and increases its term number
+
+12) Failed leader election (1 node times out first but other nodes don’t vote for it)
+- 5 nodes in total
+- Node1 dies
+- Node2 times out, wins the election, and becomes leader
+- Node2 dies
+- Node1 comes back alive (before another leader can be elected), and immediately times out
+- But node1’s term is now lower than everyone else’s
+- Node1 sends out RequestToVote (node1 increases its term in doing so, so now its term is the same as everyone else’s term, but it is not larger than everyone else’s term)
+- Everyone votes ‘no’ for node1
+- Node1 stays a candidate
+- Another node times out, becomes candidate, wins the election
+
+13) Same as (12) but in the last step, node 2 is the ndoe that restarts and immediately times out
+- Node2 becomes the candidate and wins the election because its term number is correct (as no other leaders were elected after it died the first time)
+
+TO DO: make testcases for network partitioning

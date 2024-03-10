@@ -1,0 +1,16 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_40567.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:39347 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:41749 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:51821 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57987 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:39347 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57987 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:51821 due to connection error.
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57987 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:51821 due to connection error.
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Became follower, term 5

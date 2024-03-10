@@ -1,0 +1,27 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_51141.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60681 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:34949 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60681 due to connection error.
+ERROR:werkzeug:Became leader, term 2
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60681 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57517 due to connection error.
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:60681
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:34949
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:45597
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:57517
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:34949
+ERROR:werkzeug:Last applied: 2, index of log added: 2
+ERROR:werkzeug:MQ: {'test_topic': ['Test Message']}
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:60681
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:57517
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:45597

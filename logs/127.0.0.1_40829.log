@@ -1,0 +1,14 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_40829.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 2
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Became follower, term 6
+ERROR:werkzeug:Became follower, term 7
+ERROR:werkzeug:Became follower, term 8
+ERROR:werkzeug:Became follower, term 9
+ERROR:werkzeug:Became follower, term 10
+ERROR:werkzeug:Became follower, term 11

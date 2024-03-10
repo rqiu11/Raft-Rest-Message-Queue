@@ -1,0 +1,9 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_43185.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Became leader, term 1
+ERROR:werkzeug:became follower from election
+ERROR:werkzeug:Initiating election, term 4
+ERROR:werkzeug:Became leader, term 5
+ERROR:werkzeug:getting data from nodes/127.0.0.1_43185.json
+ERROR:werkzeug:logs: [], voted_for: {'0': '127.0.0.1:43185', '4': '127.0.0.1:43185'}, current_term: 5

@@ -1,0 +1,31 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_55679.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43697 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Initiating election, term 3
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Became leader, term 4
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60941 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:45427 due to connection error.
+ERROR:werkzeug:Became follower, term 5
+ERROR:werkzeug:MY LOGS: [{'op': 'Create topic', 'term': 5, 'topic': 'test_topic'}]
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 5, 'topic': 'test_topic'}, {'term': 5, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Initiating election, term 5
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:43373 due to connection error.
+ERROR:werkzeug:Became leader, term 6
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:43373 due to connection error.
+ERROR:werkzeug:Became follower, term 7

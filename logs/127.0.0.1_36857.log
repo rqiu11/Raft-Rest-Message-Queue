@@ -1,0 +1,78 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_36857.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 2
+ERROR:werkzeug:Became follower, term 3
+ERROR:werkzeug:Initiating election, term 3
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 4
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 5
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 6
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 7
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 8
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 9
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 10
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 11
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 12
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 13
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 14
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 15
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 16
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 17
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 18
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 19
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 20
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 21
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 22
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 23
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Initiating election, term 24
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 25
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:42529 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Initiating election, term 26
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Became leader, term 27
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60457 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:60457 due to connection error.

@@ -1,0 +1,8 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_37143.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:56883 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:48831 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:48831 due to connection error.
+ERROR:werkzeug:Became leader, term 2

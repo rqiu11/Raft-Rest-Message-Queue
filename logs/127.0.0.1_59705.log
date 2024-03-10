@@ -1,0 +1,45 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_59705.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 2
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Initiating election, term 3
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Became leader, term 4
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:48211 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:57969 due to connection error.

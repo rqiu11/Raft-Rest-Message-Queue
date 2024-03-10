@@ -1,0 +1,1 @@
+{"current_term": 2, "voted_for": {"0": "127.0.0.1:58471", "1": "127.0.0.1:58471"}, "logs": [{"op": "Create topic", "term": 2, "topic": "test_topic"}]}

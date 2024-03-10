@@ -1,0 +1,39 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_60489.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Initiating election, term 0
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:52815 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:44683 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Initiating election, term 1
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Became leader, term 2
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:54321 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:37319 due to connection error.
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:37319
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:44683
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Last applied: 2, index of log added: 2
+ERROR:werkzeug:MQ: {'test_topic': ['Test Message']}
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:52815
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:44683
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:54321
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:37319
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:54321
+ERROR:werkzeug:Successfully sent append entries request to follower 127.0.0.1:52815

@@ -1,0 +1,25 @@
+ERROR:werkzeug:getting data from nodes/127.0.0.1_35711.json
+ERROR:werkzeug:logs: [], voted_for: {}, current_term: 0
+ERROR:werkzeug:Became follower, term 2
+ERROR:werkzeug:INCREMENTING LAST APPLIED [{'op': 'Create topic', 'term': 2, 'topic': 'test_topic'}, {'term': 2, 'op': 'Adding message to topic', 'message': 'Test Message', 'topic': 'test_topic'}], 1
+ERROR:werkzeug:Initiating election, term 2
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became leader, term 3
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became follower, term 4
+ERROR:werkzeug:Initiating election, term 5
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became leader, term 6
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became follower, term 7
+ERROR:werkzeug:Initiating election, term 7
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became leader, term 8
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became follower, term 9
+ERROR:werkzeug:Initiating election, term 9
+ERROR:werkzeug:Failed to get vote from 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became leader, term 10
+ERROR:werkzeug:Cannot send heartbeat to 127.0.0.1:35137 due to connection error.
+ERROR:werkzeug:Became follower, term 11
